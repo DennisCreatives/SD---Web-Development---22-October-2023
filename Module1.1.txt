@@ -7,3 +7,15 @@ What is HTML?
 - It uses tags to structure content on web pages
 
 Let's create your first HTML file:
+
+To get started:
+- Create a new folder on your computer for your web projects
+- Open a text editor (like Notepad, VS Code, or any text editor)
+- Copy the code above
+- Save it as "index.html" in your project folder
+- Open it in a web browser
+
+Practice Exercise:
+Try to add:
+- Another heading under the "Hello, World!" (use <h2>)
+- Another paragraph (use <p>)
