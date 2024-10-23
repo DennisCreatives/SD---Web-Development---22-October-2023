@@ -1,0 +1,9 @@
+Module 1.1: Introduction to HTML
+
+What is HTML?
+- HTML stands for HyperText Markup Language
+- It is the standard language used to create web pages
+- HTML is not a programming language but a markup language
+- It uses tags to structure content on web pages
+
+Let's create your first HTML file:
