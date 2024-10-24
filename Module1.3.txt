@@ -1,0 +1,12 @@
+Lists and Links
+
+This is an important section where you will learn how to create different types of lists and links to your web pages.
+
+Let's practice creating these elements step by step
+
+1. First, There are three types of lists in HTML:
+-> Unordered Lists <ul> - with bullet points
+-> Ordered Lists <ol> - with numbers
+-> Description Lists <dl> - with terms and descriptions
+
+2. Practice exercise 1.3 - Create an Unordered list: Add a list of your favorite hobbies:

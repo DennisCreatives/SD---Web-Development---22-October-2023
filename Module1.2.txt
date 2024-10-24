@@ -1,0 +1,19 @@
+Here is what each element does:
+
+- <h1> to <h6>: Headings (h1 is largest, h6 is smallest)
+- <p>: Creates paragraphs
+- <strong> or <b>: Makes text bold
+- <em> or <i>: Makes text italic
+- <u>: Underlines text
+- <br>: creates a line break
+- <hr>: Creates a horizontal line
+
+Challenge: (Create a new file: challenge1.html)
+
+Try creating these elements by yourself: Make a new section in your file with:
+
+1. A heading for "About Me"
+2. A paragraphs with some text about yourself
+3. Use at least one bold and one italic world.
+
+
