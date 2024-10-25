@@ -1,0 +1,13 @@
+Images and Multimedia
+
+Key notes on working with images and Multimedia
+
+Basic syntax
+<img> is used to insert an images in the web page:
+
+<img src="path/to/image.jpg" alt="Descriptive text" width="300" height="200">
+
+Key attributes:
+- src: Required. Path to the image file
+- alt: Required. Describes images for accessibility/if images fails to load
+- width and height: Optional but recommended for performance
