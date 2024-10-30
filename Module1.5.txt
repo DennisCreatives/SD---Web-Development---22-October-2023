@@ -1,0 +1,12 @@
+<table> - creates a table
+<thead>, <tbody>, and <tfoot> - organises table sections
+<th> - is for header cells
+<td> - is for regular data cells
+<tr> - is for a full row of cells
+border="1" - adds basic border (we'll style this better with CSS later)
+colspan = "3" - merges 3 columns into one cell
+
+
+Challenge:
+
+Create a simple Schedule table or school timetable
