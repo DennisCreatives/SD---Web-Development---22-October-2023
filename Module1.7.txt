@@ -1,0 +1,11 @@
+Semantic HTML elements
+
+<header> - Contains introductory content or navigation
+<nav> - Contains Navigation menu
+<main> - Main content of the page
+<article> - Indepenedent, self-contained content
+<section> - Thematic grouping of content
+<aside> - sidebar content
+<footer> - Footer information
+<figure> - Images with captions
+<address> - Contact information

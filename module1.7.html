@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Example</title>
+</head>
+<body>
+    
+    <!-- Header Section of the web page -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <!-- Article Section -->
+        <article>
+            <h1>Welcome to My Website</h1>
+            <section id="about">
+                <h2>About Us</h2>
+                <p>This is the about section of our website.</p>
+            </section>
+
+            <section id="services">
+                <h2>Our Services</h2>
+                <!-- Using figure for images with captions -->
+                <figure>
+                    <img src="images/mountain.jpg" alt="" width="300" height="200">
+                    <figcaption>Our main services</figcaption>
+                </figure>
+            </section>
+        </article>
+
+        <!-- Aside for side bar Content -->
+        <aside>
+            <h3>Latest News</h3>
+            <ul>
+                <li>News Item 1</li>
+                <li>News Item 2</li>
+            </ul>
+        </aside>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved</p>
+        <address>
+            Contact us at: <a href="mailto:example@email.com">example@email.com</a>
+        </address>
+    </footer>
+</body>
+</html>

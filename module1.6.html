@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+</head>
+<body>
+    
+    <h1>Contact Form</h1>
+
+    <form action="" method="POST">
+        <!-- Text Inputs -->
+        <div>
+            <label for="name"">Full Name:</label> <br>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        </div>
+
+        <br>
+
+        <div>
+            <label for="email">Email Address:</label> <br>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+        </div>
+
+        <br>
+        
+        <!-- Radio Buttons -->
+        <div>
+            <label>Gender:</label> <br>
+            <input type="radio" name="gender" id="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <br>
+
+        <div>
+            <!-- Checkboxes -->
+            <label>Interests</label> <br>
+            <input type="checkbox" name="interests" id="coding" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" name="interests" id="reading" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" name="interests" id="travel" value="travel">
+            <label for="travel">Travelling</label>
+        </div>
+        <br>
+
+        <!-- Dropdown Menu -->
+        <div>
+            <label for="country">Country</label> <br>
+            <select name="country" id="country">
+                <option value="">Select a country</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select>
+        </div>
+        <br>
+
+        <!-- Text Area -->
+        <div>
+            <label for="message">Message:</label> <br>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+        </div>
+        <br>
+
+        <!-- Submit and Reset Buttons -->
+        <div>
+            <button type="submit">Submit Form</button>
+            <button type="reset">Reset Form</button>
+        </div>
+    </form>
+</body>
+</html>
