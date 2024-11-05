@@ -125,7 +125,7 @@ p {
     /* Style nested elements */
 }
 
-/* Exercise 2: Box <odel Practice */
+/* Exercise 2: Box Model Practice */
 .exercise-2 {
     /* Create a card layout */
 }
@@ -156,7 +156,7 @@ a:hover {
     /* Your styles here */
 }
 
-/* PSeudo element selector */
+/* Pseudo element selector */
 p::first-line {
     /* Your styles here */
 }
