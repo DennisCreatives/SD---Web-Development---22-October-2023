@@ -1,0 +1,83 @@
+/* styling.css */
+
+/* Base Styles */
+:root {
+    --primary-color: #2563eb;
+    --secondary-color: #1e40af;
+    --text-color: #333;
+    --background-color: #f3f4f6;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section 1: Colors */
+
+/* Color values */
+.color-examples > div {
+    padding: 20px;
+    margin: 10px 0;
+    color: white;
+}
+
+.hex-color {
+    background-color: #FF5733;
+}
+
+.rgb-color {
+    background-color: rgb(41, 128, 185);
+}
+
+.rgba-color {
+    background-color: rgba(41, 128, 185, 0.7);
+}
+
+.hsl-color {
+    background-color: hsl(200, 70%, 50%);
+}
+
+.hsla-color {
+    background-color: hsla(200, 70%, 50%, 0.7);
+}
+
+/* Gradients */
+.gradient-examples > div {
+    height: 100px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.linear-gradient {
+    background: linear-gradient(45deg, #FF5733, #2563eb);
+}
+
+.radial-gradient {
+    background: radial-gradient(circle, #FF5733, #2563eb);
+}
+
+.conic-gradient {
+    background: conic-gradient(from 45deg, #FF5733, #2563eb, #FF5733)
+}
+
+/* Section 2: Typography */
+
+/* Font Properties */

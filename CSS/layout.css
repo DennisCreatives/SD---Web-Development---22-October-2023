@@ -104,3 +104,60 @@ nav {grid-area: nav;}
 main {grid-area: main;}
 aside {grid-area: aside;}
 footer {grid-area: footer;}
+
+/* Section 3: Positioning */
+.positioning-section{
+    position: relative;
+    height: 400px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+/* Static Positioning*/
+.position-static {
+    position: static;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Relative Positioning */
+.position-relative {
+    position: relative;
+    background-color: #444;
+    color: white;
+    padding: 20px;
+    left: 20px;
+    margin-bottom: 20px;
+}
+
+/* Absolute Positioning */
+.position-absolute {
+    position: absolute;
+    background-color: #555;
+    columns: white;
+    padding: 30px;
+    left: 0;
+    right: 0;
+}
+
+/* Fixed Positioning */
+.position-fixed {
+    position: fixed;
+    background-color: #666;
+    color: white;
+    padding: 20px;
+    bottom: 20px;
+    right: 20px;
+}
+
+/* Sticky Positioning */
+.position-sticky {
+    position: sticky;
+    top: 20px;
+    background-color: #777;
+    color: white;
+    padding: 20px;
+}
