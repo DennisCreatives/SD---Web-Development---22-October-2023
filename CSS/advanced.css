@@ -1,0 +1,64 @@
+/* advanced.css */
+
+/* Base Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Section 1: Transitions */
+
+/* Basic Transitions */
+.transition-examples > div {
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    background-color: #2563eb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.1);
+}
+
+.hover-color {
+    transition: background-color 0.3s ease;
+}
+
+.hover-color:hover {
+    background-color: #1e40af;
+}
+
+.hover-multiple {
+    transition: all 0.3s ease;
+}
+
+.hover-multiple:hover {
+    transform: scale(1.1);
+    background-color: #1e40af;
+}

@@ -81,3 +81,109 @@ section {
 /* Section 2: Typography */
 
 /* Font Properties */
+.font-family-example {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-size-example{
+    font-size: 24px;
+}
+
+.font-weight-example {
+    font-weight: 700;
+}
+
+.font-style-example {
+    font-style: italic;
+}
+
+/* Text Properties */
+.text-align-example {
+    text-align: center;
+}
+
+.text-decoration-example {
+    text-decoration: underline wavy #FF5733;
+}
+
+.text-transform-example {
+    text-transform: uppercase;
+}
+
+.line-height-example {
+    line-height: 2;
+}
+
+/* Text Effects */
+.text-shadow-example {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-size: 24px;
+}
+
+.letter-spacing-example {
+    letter-spacing: 5px;
+}
+
+.word-spacing-example {
+    word-spacing: 10px;
+}
+
+/* Section 3: Backgrounds */
+
+/* Background Colors */
+.bg-color-example {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Background Images */
+.bg-image-example {
+    height: 200px;
+    background-image: url('../images/nature.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.bg-properties > div {
+    height: 150px;
+    margin: 10px 0;
+    padding: 20px;
+    color: white;
+}
+
+.bg-repeat {
+    background: url('../images/pexels-pixabay-46160.jpg') repeat;
+}
+
+.bg-position {
+    background: url('../images/pexels-pixabay-46160.jpg') no-repeat center;
+}
+
+.bg-size {
+    background: url('../images/pexels-pixabay-46160.jpg') no-repeat center;
+    background-size: contain;
+}
+
+.bg-attachment {
+    height: 200px;
+    background: url('../images/mountain.jpg') fixed;
+    overflow: scroll;
+}
+
+/* Multiple Backgrounds */
+.multiple-backgrounds {
+    height: 200px;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url('../images/nature.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
