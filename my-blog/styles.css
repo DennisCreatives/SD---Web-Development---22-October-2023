@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    animation: fadeInBody 1s ease-in-out;
+}
+    
+h1, h2, h3 {
+    color: #35424a;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes fadeInBody {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInHero {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Hero Banner */
+.hero-banner {
+    background: url('https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    animation: slideInHero 1.5s ease;
+}
+
+.hero-banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    animation: bounce 2s infinite;
+}
+
+.hero-banner p {
+    font-size: 1.2rem;
+    animation: fadeInBody 5s ease;
+}
+
+.hero-banner .btn {
+    background: #007acc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.hero-banner .btn:hover {
+    background: #005f99;
+    transform: scale(1.1);
+}
+
+/* Navigation */
+.navbar {
+    background: #444;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    animation: fadeInBody 1.2s ease-in-out;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #007acc;
+    bottom: 0;
+    left: -100%;
+    transition: left 0.3s ease;
+}
+
+.navbar ul li a:hover::after {
+    left: 0;
+}
+
+/* Featured Posts */
+.featured-posts {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.post-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.post-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    flex: 1;
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+}
+
+.post-card .read-more {
+    color: #007acc;
+    margin-top: 10px;
+    display: inline-block;
+}
